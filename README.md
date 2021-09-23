@@ -1,0 +1,1 @@
+[Click here](https://anshikag0219.github.io/gradient-generator-GDSC/) to check the project out.
