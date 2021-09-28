@@ -63,10 +63,24 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem auto;
+    margin: 3rem auto;
 }
 @media screen and (max-width: 900px) {
     .container{
         flex-direction: column;
     }
+}
+select{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background: #F43B86;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+option{
+    background: #FFB319;
+    border: none;
 }
