@@ -3,6 +3,7 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var gradient = document.getElementById("gradient");
 var typeGrad = document.querySelector("#type-grad");
+console.log(typeGrad.value);
 
 // linear-gradient(type_of_grad, color1,color2);
 // linear-gradient(45deg, color1.value, color2.value);
@@ -16,6 +17,7 @@ function setGradient() {
  + ")";
  code.innerText = gradient.style.background + ";";
 }
+console.log(typeGrad.value);
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
